@@ -1,0 +1,91 @@
+.product-container{
+    margin-top: 3rem;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+    justify-content: space-around;
+    text-align: center;
+}
+.single-post{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 25%;
+    margin: 1rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 3px rgba(0,0,0,.1);
+}
+.single-post img{
+    width: 40%;
+}
+.p-title{
+    font-size: .8rem;
+}
+.p-price{
+    color: red;
+}
+main{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+.button-row > button{
+margin: 1rem;
+border: none;
+padding: .5rem 1rem;
+
+}
+.f-button{
+    background-color: orangered;
+    color: white;
+}
+.brand-shopping{
+    flex-direction: row;
+    flex: 1 1 25rem;
+}
+.brand-shopping > .brand{
+    margin: 1rem;
+    width: 100%;
+    position: relative;
+}
+.brand-shopping > .brand > img{
+    width: 100%;
+}
+.brand-shopping > .brand > .button{
+    background-color: #fff;
+    position: absolute;
+    left: 5rem;
+    bottom: 2rem;
+    width: 20rem;
+    padding: 1rem;
+}
+.brand-shopping > .brand > .button > button {
+    padding: .2rem 1rem;
+    background-color: orangered;
+    color: #fff;
+    float: left;
+    font-size: 1rem;
+}
+
+.brand-shopping > .brand > .shop2{
+    height: 10rem;
+    border-top: .5rem solid rgb(33, 189, 12);
+}
+.brand-shopping > .brand > .shop2 > p{
+    font-size: .8rem;
+    color: grey;
+}
+.brand-shopping > .brand > .shop2 > .perfect{
+    color: rgb(33, 189, 12);
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+.brand-shopping > .brand > .button > span{
+color: red;
+padding: .5rem;
+}

@@ -1,0 +1,24 @@
+footer > .row{
+    display: flex;
+    gap: 1rem;
+    margin: 1rem;
+    max-width: 100%;
+    background-color:#FFFAFA;
+    justify-content: center;
+    padding: 2rem;
+    border-bottom: .2rem solid black;
+}
+footer > .row > .box{
+    width: 25%;
+}
+footer > .row > .i-box{
+    flex-grow: 2;
+    /* background-color: blue; */
+}
+.contect-num{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.img-box img{
+    width: 100%;
+}
